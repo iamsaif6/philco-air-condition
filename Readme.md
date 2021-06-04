@@ -2,11 +2,11 @@
 
 <br>
 
-<img src="https://github.com/iamsaif6/kallyas/blob/master/Screenshot%202021-06-02%20at%2012-06-48%20Kallyas%20Multi%20Page%20Website.png" width="800px" />
+<img src="https://github.com/iamsaif6/philco-air-condition/blob/master/Screenshot%202021-06-04%20at%2011-11-45%20Document.png" width="800px" />
 
-> ## Home Page 1 : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
+> ## Home Page 1 : [Click Here](https://iamsaif6.github.io/philco-air-condition/ "Philco")
 
-> ## Home Page 2 : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
+> ## Home Page 2 : [Click Here](index%20-%202.html "Philco")
 
  <br>
 
