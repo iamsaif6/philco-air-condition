@@ -1,0 +1,313 @@
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) { 
+    .eco{
+        padding-top: 30rem;
+    }
+
+    .eco__after{
+        transform: translate(-50%,45%);
+    }
+
+    .header__before{
+        max-width: 34rem;
+        right: 10%;
+    }
+
+    .header{
+        background-position: right;
+        min-height: 62.5rem;
+    }
+
+    .large-img-box{
+        height: 55rem;
+    }
+ }
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .header__before{
+        max-width: 35rem;
+    }
+
+    html{
+        font-size: 55%;
+    }
+
+    .eco{
+        height: 110rem;
+    }
+
+    .protect__img{
+        height: 55rem;
+    }
+
+    .large-img-box{
+        height: 60rem;
+    }
+ }
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .container{
+        max-width: 1220px;
+        width: 90%;
+    }
+
+    html{
+        font-size: 50%;
+    }
+
+
+    .nav__logobox{
+        text-align: center;
+    }
+
+    .nav.v2{
+        padding: 10rem;
+    }
+
+    .header__v2__logobox{
+        text-align: center;
+    }
+
+    .header__v2{
+        background-image: url(../img/featured-img_inverter_v.jpg);
+        background-position: right bottom;
+    }
+
+    /* cobre */
+
+
+    .cobre .container .col-6:first-child{
+        order: 1;
+        text-align: center;
+        height: 65rem;
+    }
+
+    /* ECO */
+
+    .eco{
+        background-image: url(../img/section-inverter_v.jpg);
+        height: 140rem;
+    }
+
+    .eco .container .text-center:nth-child(2){
+        order: 0;
+        margin-bottom: 3rem;
+    }
+    .eco .container .text-center:nth-child(1){
+        order: 2;
+    }
+    .eco .container .text-center:nth-child(3){
+        order: 2;
+    }
+
+    /* Wifi */
+
+    .wifi{
+        background-image: url(../img/woman-wifi-v.jpg);
+        padding-top: 20rem;
+    }
+
+    .wifi__after{
+        left: 50%;
+        transform: translate(-50%,-20%);
+    }
+
+    .wifi__textbox{
+        margin-bottom: 50rem;
+    }
+
+    .wifi__assistant{
+        justify-content: right;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .wifi__assistant-img{
+        margin-bottom: 2.5rem;
+    }
+
+    /* Smartlife */
+
+    .smartlife .row{
+        justify-content: flex-start;
+    }
+
+    /* efeito */
+
+    .efeito .container{
+        height: 100%;
+    }
+
+    .efeito .heading__box{
+        margin-bottom: 3rem;
+    }
+
+    .efeito .container .row{
+        height: 100%;
+        align-items: flex-end;
+    }
+
+    .feature.v2 .feature__textbox__v2{
+        margin-bottom: 60rem;
+    }
+
+    .feature.v2{
+        background-image: url(../img/section-oscilar-v.jpg);
+    }
+
+    .compare__after{
+        display: none;
+    }
+
+    /* Header */
+
+    .header{
+        margin-bottom: 13rem;
+        min-height: 80rem;
+        background-position: left;
+    }
+
+    .header__v2{
+        margin-bottom: 0;
+        min-height: 100rem;
+        background-position: bottom;
+    }
+
+    .header__v2 .header__textbox{
+        margin-top: -15px;
+    }
+
+    .header__inventor{
+        max-width: 31rem;
+        margin-top: -3rem;
+    }
+
+    .header__v2 .protect__headingbox{
+        padding: 0;
+        margin-top: 2.5rem;
+    }
+
+    .header .row{
+        flex-direction: column-reverse;
+    }
+
+    .header__logobox{
+        text-align: left;
+        margin-bottom: 4rem;
+    }
+
+    /* Protect */
+    .protect__textbox{
+        margin: 4rem 0;
+    }
+
+    /* Clima */
+
+    .clima__box{
+        margin-bottom: 4rem;
+    }
+
+    /* Remote */
+
+    .remote__imgbox{
+        text-align: left;
+    }
+
+    /* Feature */
+
+    .feature__box{
+        margin-bottom: 4rem;
+    }
+
+    .feature__imgbox{
+        text-align: center;
+    }
+
+
+
+ }
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    html{
+        font-size: 40%;
+    }
+
+    .cobre{
+        height: 65rem;
+    }
+
+    /* Header */
+
+    .header{
+        min-height: 85rem;
+        background-position: left;
+    }
+
+    .header__after{
+        max-width: 47.5rem;
+    }
+
+    .header__before{
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 40rem;
+    }
+
+
+    .header__v2{
+        
+        min-height: 90rem;
+        background-position: bottom;
+        background-size: 100%;
+    }
+
+    /* .efeito */
+
+    .efeito{
+        background-image: url(../img/Group-1616.jpg);
+        background-position: top center;
+        height: 105rem;
+    }
+
+    .large-img-box{
+        height: 55rem;
+    }
+
+    .eco{
+        height: 120rem;
+        padding-top: 32rem;
+    }
+
+    .eco__after{
+        transform: translate(-50%,55%);
+    }
+ }
+
+
+ @media (max-width:400px){
+     
+    .efeito{
+        height: 75rem !important;
+        padding-top: 32rem;
+    }
+
+
+    .feature.v2 .feature__textbox__v2{
+        margin-bottom: 40rem;
+    }
+
+    
+ }

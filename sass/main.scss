@@ -1,0 +1,892 @@
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Akrobat';
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+
+/*================
+====== Reuseable=====
+=================*/
+
+.container{
+    max-width: 1220px;
+    width: 95%;
+}
+
+.description{
+    font-size: 2.3rem;
+    color: #000000;
+    line-height: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+
+    b{
+        font-weight: 800;
+    }
+}
+
+.heading__box{
+
+    h1{
+        color: #555555;
+        font-size: 7rem;
+        line-height: 6.2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        span{
+            color: #66C3D1;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.mb__6{
+    margin-bottom: 6rem;
+}
+/*================
+====== navbar=====
+=================*/
+
+.nav{
+    background-color: #2C2D2E;
+    padding: 6rem 0;
+
+    &__logo{
+
+        img{
+            max-width: 14rem;
+        }
+    }
+}
+
+/*================
+====== Header =====
+=================*/
+
+.header{
+
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF00 100%) , url(../img/header__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    min-height: 73.5rem;
+    position: relative;
+    padding-top: 6rem;
+
+    
+    &__after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(0,50%);
+        max-width: 40.8rem;
+        z-index: 9;
+    }
+
+
+    &__before{
+        position: absolute;
+        right: 15%;
+        bottom: 0;
+        max-width: 45rem;
+        width: 100%;
+
+    }
+
+    &__textbox{
+
+    }
+
+    &__logobox{
+        text-align: right;
+    }
+
+    &__logo{
+        width: 100%;
+        max-width: 38.5rem;
+    }
+
+    &__heading{
+
+        font-size: 6.7rem;
+        color: #555555;
+        text-transform: uppercase;
+        line-height: 6rem;
+
+        span{
+            color: #66C3D1;
+            font-weight: 800;
+        }
+    }
+}
+
+/*================
+====== Protect Section =====
+=================*/
+
+.protect{
+
+
+    &__headingbox{
+
+        padding: 20px 0;
+
+        p{
+            font-size: 1.7rem;
+            color: #555555;
+            margin-bottom: 0;
+        }
+
+    }
+
+    &__heading{
+
+        font-size: 5.1rem;
+        color: #555555;
+        text-transform: uppercase;
+        line-height: 4.4rem;
+        font-weight: 700;
+
+        span{
+            color: #0B8896;
+        }
+    }
+
+    &__img{
+        height: 67.5rem;
+        width: 100%;
+        background-image: url(../img/familia-copy.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__inner{
+        background-color: #ECECEC;
+    }
+
+    &__textbox{
+        padding: 0 4.7rem;
+
+        h2{
+            font-size: 4.4rem;
+            color: #000;
+            font-weight: 800;
+        }
+    }
+
+    &__logo{
+        width: 100%;
+        max-width: 34rem;
+        margin-bottom: 4rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/*================
+====== Clima Section =====
+=================*/
+
+.clima{
+
+    padding: 10rem 0;
+    border-bottom: 1.5rem solid #ECECEC;
+
+
+    &__heading{
+        font-size: 10.8rem;
+        line-height: 6.2rem;
+        color: #66C3D1;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    &__subheading{
+        font-size: 5.1rem;
+        line-height: 4.4rem;
+        color: #2B2B2B;
+        font-weight: 600;
+        margin-bottom: 7rem;
+    }
+
+    &__box{
+
+    }
+
+    &__img{
+        height: 11.4rem;
+        margin-bottom: 2.5rem;
+        width: 80%;
+        -o-object-fit: contain;
+           object-fit: contain;
+    }
+
+    &__title{
+        font-size: 3.5rem;
+        color: #2B2B2B;
+        line-height: 4.4rem;
+        text-transform: uppercase;
+    }
+
+
+}
+
+
+/*================
+====== Display Section =====
+=================*/
+
+.display{
+    padding-top: 6.5rem;
+
+    &__imgbox{
+        text-align: right;
+    }
+
+    &__img{
+        max-width: 95.7rem;
+        width: 100%;
+    }
+}
+
+
+
+/*================
+====== Remote =====
+=================*/
+
+.remote{
+    padding-top: 6rem;
+    background-image: url(../img/remote-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    &__imgbox{
+        margin-top: 6.6rem;
+        text-align: center;
+
+        img{
+            margin-top: -6.6rem;
+            transform: translateY(15%);
+            max-width: 20rem;
+            width: 100%;
+        }
+    }
+
+
+    &__model{
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/*================
+====== Feature =====
+=================*/
+
+.feature{
+
+    background-image: url(../img/section-spliy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 14.4rem;
+
+    &__box{
+        text-align: center;
+    }
+
+    &__img{
+        max-width: 21.1rem;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    &__title{
+        font-size: 3rem;
+        line-height: 3.1rem;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 800;
+    }   
+
+    &__details{
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    &__imgbox{
+        text-align: right;
+        margin-top: 5rem;
+    }
+
+    &__imgbottom{
+        max-width: 50rem;
+        width: 100%;
+    }
+}
+
+
+/*================
+====== Large Image =====
+=================*/
+
+.large-img{
+
+    &-box{
+
+        height: 71.5rem;
+        background-image: url(../img/Ambientado2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom left;
+    
+        &--2{
+            background-image: url(../img/Ambientado.png);
+            background-position: bottom right;
+        }
+    }
+}
+
+
+
+/*================
+====== Footer =====
+=================*/
+
+.footer{
+
+    background-color: #2B2B2B;
+    padding: 5.5rem 0;
+
+    &__header{
+
+        font-size: 4rem;
+        line-height: 4.4rem;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+
+        span{
+            color: #A9D3AF;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    &__volt{
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+        color: #9D9C9C;
+        font-weight: 500;
+
+        span{
+            margin-left: 2rem;
+        }
+    }
+
+    &__item{
+
+        margin-top: 6rem;
+        transform: translateX(25%);
+
+        img{
+            max-height: 5rem;
+            max-width: 5rem;
+            width: 100%;
+            -o-object-fit: contain;
+               object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        &__name{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ABD2B1;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+    }
+
+    &__span{
+        font-size: 2.2rem;
+        color: #FEFEFE;
+        margin-bottom: 0;
+    }
+}
+
+
+
+/*====================================
+====== Wifi Split Page CSS ============================
+=============================================*/
+
+/*================
+====== Header =====
+=================*/
+
+.header{
+
+    &__v2{
+        background-image: url(../img/header-v2-bg.jpg);
+        background-repeat: no-repeat;
+        padding-top: 0;
+        background-position: bottom center;
+        background-size: cover;
+        height: 64.3rem;
+        background-color: #F6F6F6;
+
+        &__after{
+            left: auto;
+            right: 0;
+        }
+
+        .header__textbox{
+            margin-top: 5.5rem;
+        }
+
+
+        &__logobox{
+            transform: translateY(-25%);
+        }
+
+
+
+        .protect__headingbox{
+            margin-top: 4rem;
+        }
+    }
+
+    &__ac{
+        max-width: 50.5rem;
+        width: 100%;
+
+    }
+
+    &__inventor{
+        max-width: 40rem;
+        width: 100%;
+        transform: translateX(10%);
+    }
+}
+
+
+/*================
+====== ECO =====
+=================*/
+
+.eco{
+
+    background-image: url(../img/bkg_couch2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 95.5rem;
+    padding: 20rem 0;
+    position: relative;
+    background-color: #CFD6D9;
+
+    &__after{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-15%);
+        max-width: 54rem;
+        width: 100%;
+    }
+
+
+    &__logobox{
+
+        text-align: center;
+        color: #fefefe;
+
+        img{
+            max-width: 8rem;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        &-title{
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 4.2rem;
+        }
+    }
+
+    &__details{
+        font-size: 2.4rem;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+    &__large{
+
+
+        &-logo{
+
+
+            img{
+                max-width: 33rem;
+                width: 100%;
+                margin-bottom: 4rem;
+            }
+        }
+
+        &-text{
+
+            font-size: 3rem;
+            line-height: 5.2rem;
+            color: #FEFEFE;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span{
+                color: #66C3D1;
+                font-size: 9rem;
+                line-height: 5.3rem;
+                font-weight: 800;
+                margin: 0 1.3rem;
+            }
+        }
+    }
+
+
+
+
+}
+
+
+/*================
+====== Map Secrion =====
+=================*/
+
+.map{
+
+    background-color: #181C19;
+    padding: 8rem 0 12rem 0;
+    text-align: center;
+
+    &__imgbox{
+        margin-bottom: 7rem;
+    }
+
+    &__img{
+        max-width: 88rem;
+        width: 100%;
+
+    }
+
+    &__textbox{
+
+    }
+
+    &__details{
+        font-size: 2.8rem;
+        line-height: 3rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-bottom: 2.3rem;
+
+        span{
+            text-transform: uppercase;
+            color: #66C3D1;
+            font-weight: 800;
+        }
+
+    }
+
+    &__smalltext{
+        color: #9D9C9C;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+/*================
+====== Wifi Secrion =====
+=================*/
+
+.wifi{
+
+    background-image: url(../img/woman-wifi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 12.5rem;
+
+    &__after{
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(0,-20%);
+        width: 100%;
+        max-width: 59rem;
+    }
+
+    &__textbox{
+        margin-bottom: 26rem;
+    }
+
+    &__logo{
+        margin-bottom: 2rem;
+        max-width: 45rem;
+        width: 100%;
+    }
+
+    .description{
+        color: #555555;
+        margin-bottom: 5.5rem;
+    }
+
+    &__assistant{
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+
+        &-img{
+            max-height: 5.5rem;
+            -o-object-fit: contain;
+               object-fit: contain;
+        }
+    }
+
+    &__smalltext{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: #2B2B2B;
+    }
+}
+
+
+
+/*================
+====== Smartlife Secrion =====
+=================*/
+
+.smartlife{
+
+    background-image: url(../img/smartlife.png);
+    height: 69rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .container{
+        height: 100%;
+    }
+
+    .row{
+        height: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    &__content{
+
+    }
+
+    &__img{
+        max-width: 32rem;
+        width: 100%;
+    }
+
+    .description{
+        color: #fff;
+        margin-bottom: 4.5rem;
+    }
+}
+
+
+
+/*================
+====== Efeito Section =====
+=================*/
+
+.efeito{
+
+    background-image: url(../img/Group--1617.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 70rem;
+
+    .heading__box{
+        margin-top: 10rem;
+    }
+}
+
+
+
+/*================
+====== Feature V2 Section =====
+=================*/
+
+.feature.v2{
+
+    background-image: url(../img/section-oscilar.jpg);
+    background-position: bottom center !important;
+    background-size: cover;
+    padding-top: 6rem;
+
+
+    .feature__title,
+    .feature__details{
+        color: #2B2B2B;
+    }
+
+    .feature__ac{
+        max-width: 49rem;
+        width: 100%;
+    }
+
+
+    .feature__textbox__v2{
+        margin-top: -3rem;
+        margin-bottom: 50rem;
+    }
+
+
+}
+
+.feature__textbox__v2{
+
+    h1{
+        font-size: 6rem;
+        color: #2C3A42;
+        text-transform: uppercase;
+        line-height: 6.2rem;
+
+        span{
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+
+    .description{
+        font-size: 2.8rem;
+        color: #2C3A42;
+        line-height: 3rem;
+    }
+}
+
+
+/*================
+====== Cobre Section =====
+=================*/
+
+.cobre{
+
+    background-image: url(../img/condensadoracopy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6.5rem 0;
+    background-position: center;
+
+    height: 80rem;
+
+    &__img{
+        max-width: 19rem;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+}
+
+/*================
+====== Compare Section =====
+=================*/
+
+.compare{
+
+    background-color: #fff;
+    position: relative;
+    padding: 8rem 0;
+
+    &__after{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    &__single{
+
+    }
+
+    &__title{
+
+        font-size: 4.8rem;
+        line-height: 4.4rem;
+        color:#2B2B2B ;
+        font-weight: 800;
+        text-transform: uppercase;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 6.7rem;
+
+        span{
+            color: #6CC3D0;
+        }
+        img{
+            max-height: 12rem;
+            width: 100%;
+            -o-object-fit: contain;
+               object-fit: contain;
+        }
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        
+        font-size: 3rem;
+        line-height: 3rem;
+        color: #2B2B2B;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+
+        
+        img{
+            width: 6.8rem;
+            height: 6.5rem;
+            margin-right: 3rem;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,565 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Akrobat';
+  font-weight: 500;
+  overflow-x: hidden; }
+
+/*================
+====== Reuseable=====
+=================*/
+.container {
+  max-width: 1220px;
+  width: 95%; }
+
+.description {
+  font-size: 2.3rem;
+  color: #000000;
+  line-height: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0; }
+  .description b {
+    font-weight: 800; }
+
+.heading__box h1 {
+  color: #555555;
+  font-size: 7rem;
+  line-height: 6.2rem;
+  font-weight: 300;
+  text-transform: uppercase; }
+  .heading__box h1 span {
+    color: #66C3D1;
+    font-weight: 700; }
+
+.mb__6 {
+  margin-bottom: 6rem; }
+
+/*================
+====== navbar=====
+=================*/
+.nav {
+  background-color: #2C2D2E;
+  padding: 6rem 0; }
+  .nav__logo img {
+    max-width: 14rem; }
+
+/*================
+====== Header =====
+=================*/
+.header {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF00 100%), url(../img/header__bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+  min-height: 73.5rem;
+  position: relative;
+  padding-top: 6rem; }
+  .header__after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 50%);
+    max-width: 40.8rem;
+    z-index: 9; }
+  .header__before {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    max-width: 45rem;
+    width: 100%; }
+  .header__logobox {
+    text-align: right; }
+  .header__logo {
+    width: 100%;
+    max-width: 38.5rem; }
+  .header__heading {
+    font-size: 6.7rem;
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 6rem; }
+    .header__heading span {
+      color: #66C3D1;
+      font-weight: 800; }
+
+/*================
+====== Protect Section =====
+=================*/
+.protect__headingbox {
+  padding: 20px 0; }
+  .protect__headingbox p {
+    font-size: 1.7rem;
+    color: #555555;
+    margin-bottom: 0; }
+
+.protect__heading {
+  font-size: 5.1rem;
+  color: #555555;
+  text-transform: uppercase;
+  line-height: 4.4rem;
+  font-weight: 700; }
+  .protect__heading span {
+    color: #0B8896; }
+
+.protect__img {
+  height: 67.5rem;
+  width: 100%;
+  background-image: url(../img/familia-copy.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.protect__inner {
+  background-color: #ECECEC; }
+
+.protect__textbox {
+  padding: 0 4.7rem; }
+  .protect__textbox h2 {
+    font-size: 4.4rem;
+    color: #000;
+    font-weight: 800; }
+
+.protect__logo {
+  width: 100%;
+  max-width: 34rem;
+  margin-bottom: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*================
+====== Clima Section =====
+=================*/
+.clima {
+  padding: 10rem 0;
+  border-bottom: 1.5rem solid #ECECEC; }
+  .clima__heading {
+    font-size: 10.8rem;
+    line-height: 6.2rem;
+    color: #66C3D1;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .clima__subheading {
+    font-size: 5.1rem;
+    line-height: 4.4rem;
+    color: #2B2B2B;
+    font-weight: 600;
+    margin-bottom: 7rem; }
+  .clima__img {
+    height: 11.4rem;
+    margin-bottom: 2.5rem;
+    width: 80%;
+    -o-object-fit: contain;
+    object-fit: contain; }
+  .clima__title {
+    font-size: 3.5rem;
+    color: #2B2B2B;
+    line-height: 4.4rem;
+    text-transform: uppercase; }
+
+/*================
+====== Display Section =====
+=================*/
+.display {
+  padding-top: 6.5rem; }
+  .display__imgbox {
+    text-align: right; }
+  .display__img {
+    max-width: 95.7rem;
+    width: 100%; }
+
+/*================
+====== Remote =====
+=================*/
+.remote {
+  padding-top: 6rem;
+  background-image: url(../img/remote-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right; }
+  .remote__imgbox {
+    margin-top: 6.6rem;
+    text-align: center; }
+    .remote__imgbox img {
+      margin-top: -6.6rem;
+      transform: translateY(15%);
+      max-width: 20rem;
+      width: 100%; }
+  .remote__model img {
+    width: 100%; }
+
+/*================
+====== Feature =====
+=================*/
+.feature {
+  background-image: url(../img/section-spliy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 14.4rem; }
+  .feature__box {
+    text-align: center; }
+  .feature__img {
+    max-width: 21.1rem;
+    width: 100%;
+    margin-bottom: 3rem; }
+  .feature__title {
+    font-size: 3rem;
+    line-height: 3.1rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800; }
+  .feature__details {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #fff;
+    font-weight: 500; }
+  .feature__imgbox {
+    text-align: right;
+    margin-top: 5rem; }
+  .feature__imgbottom {
+    max-width: 50rem;
+    width: 100%; }
+
+/*================
+====== Large Image =====
+=================*/
+.large-img-box {
+  height: 71.5rem;
+  background-image: url(../img/Ambientado2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left; }
+  .large-img-box--2 {
+    background-image: url(../img/Ambientado.png);
+    background-position: bottom right; }
+
+/*================
+====== Footer =====
+=================*/
+.footer {
+  background-color: #2B2B2B;
+  padding: 5.5rem 0; }
+  .footer__header {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center; }
+    .footer__header span {
+      color: #A9D3AF;
+      text-transform: uppercase;
+      font-weight: 700; }
+  .footer__volt {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    color: #9D9C9C;
+    font-weight: 500; }
+    .footer__volt span {
+      margin-left: 2rem; }
+  .footer__item {
+    margin-top: 6rem;
+    transform: translateX(25%); }
+    .footer__item img {
+      max-height: 5rem;
+      max-width: 5rem;
+      width: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+      margin-bottom: 10px; }
+    .footer__item__name {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ABD2B1;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+  .footer__span {
+    font-size: 2.2rem;
+    color: #FEFEFE;
+    margin-bottom: 0; }
+
+/*====================================
+====== Wifi Split Page CSS ============================
+=============================================*/
+/*================
+====== Header =====
+=================*/
+.header__v2 {
+  background-image: url(../img/header-v2-bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 0;
+  background-position: bottom center;
+  background-size: cover;
+  height: 64.3rem;
+  background-color: #F6F6F6; }
+  .header__v2__after {
+    left: auto;
+    right: 0; }
+  .header__v2 .header__textbox {
+    margin-top: 5.5rem; }
+  .header__v2__logobox {
+    transform: translateY(-25%); }
+  .header__v2 .protect__headingbox {
+    margin-top: 4rem; }
+
+.header__ac {
+  max-width: 50.5rem;
+  width: 100%; }
+
+.header__inventor {
+  max-width: 40rem;
+  width: 100%;
+  transform: translateX(10%); }
+
+/*================
+====== ECO =====
+=================*/
+.eco {
+  background-image: url(../img/bkg_couch2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 95.5rem;
+  padding: 20rem 0;
+  position: relative;
+  background-color: #CFD6D9; }
+  .eco__after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    max-width: 54rem;
+    width: 100%; }
+  .eco__logobox {
+    text-align: center;
+    color: #fefefe; }
+    .eco__logobox img {
+      max-width: 8rem;
+      width: 100%;
+      margin-bottom: 1rem; }
+    .eco__logobox-title {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 4.2rem; }
+  .eco__details {
+    font-size: 2.4rem;
+    line-height: 1;
+    margin-bottom: 0; }
+  .eco__large-logo img {
+    max-width: 33rem;
+    width: 100%;
+    margin-bottom: 4rem; }
+  .eco__large-text {
+    font-size: 3rem;
+    line-height: 5.2rem;
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .eco__large-text span {
+      color: #66C3D1;
+      font-size: 9rem;
+      line-height: 5.3rem;
+      font-weight: 800;
+      margin: 0 1.3rem; }
+
+/*================
+====== Map Secrion =====
+=================*/
+.map {
+  background-color: #181C19;
+  padding: 8rem 0 12rem 0;
+  text-align: center; }
+  .map__imgbox {
+    margin-bottom: 7rem; }
+  .map__img {
+    max-width: 88rem;
+    width: 100%; }
+  .map__details {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 2.3rem; }
+    .map__details span {
+      text-transform: uppercase;
+      color: #66C3D1;
+      font-weight: 800; }
+  .map__smalltext {
+    color: #9D9C9C;
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+
+/*================
+====== Wifi Secrion =====
+=================*/
+.wifi {
+  background-image: url(../img/woman-wifi.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 12.5rem; }
+  .wifi__after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0, -20%);
+    width: 100%;
+    max-width: 59rem; }
+  .wifi__textbox {
+    margin-bottom: 26rem; }
+  .wifi__logo {
+    margin-bottom: 2rem;
+    max-width: 45rem;
+    width: 100%; }
+  .wifi .description {
+    color: #555555;
+    margin-bottom: 5.5rem; }
+  .wifi__assistant {
+    display: flex;
+    align-items: center;
+    justify-content: left; }
+    .wifi__assistant-img {
+      max-height: 5.5rem;
+      -o-object-fit: contain;
+      object-fit: contain; }
+  .wifi__smalltext {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #2B2B2B; }
+
+/*================
+====== Smartlife Secrion =====
+=================*/
+.smartlife {
+  background-image: url(../img/smartlife.png);
+  height: 69rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .smartlife .container {
+    height: 100%; }
+  .smartlife .row {
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end; }
+  .smartlife__img {
+    max-width: 32rem;
+    width: 100%; }
+  .smartlife .description {
+    color: #fff;
+    margin-bottom: 4.5rem; }
+
+/*================
+====== Efeito Section =====
+=================*/
+.efeito {
+  background-image: url(../img/Group--1617.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 70rem; }
+  .efeito .heading__box {
+    margin-top: 10rem; }
+
+/*================
+====== Feature V2 Section =====
+=================*/
+.feature.v2 {
+  background-image: url(../img/section-oscilar.jpg);
+  background-position: bottom center !important;
+  background-size: cover;
+  padding-top: 6rem; }
+  .feature.v2 .feature__title,
+  .feature.v2 .feature__details {
+    color: #2B2B2B; }
+  .feature.v2 .feature__ac {
+    max-width: 49rem;
+    width: 100%; }
+  .feature.v2 .feature__textbox__v2 {
+    margin-top: -3rem;
+    margin-bottom: 50rem; }
+
+.feature__textbox__v2 h1 {
+  font-size: 6rem;
+  color: #2C3A42;
+  text-transform: uppercase;
+  line-height: 6.2rem; }
+  .feature__textbox__v2 h1 span {
+    font-weight: 800;
+    text-transform: uppercase; }
+
+.feature__textbox__v2 .description {
+  font-size: 2.8rem;
+  color: #2C3A42;
+  line-height: 3rem; }
+
+/*================
+====== Cobre Section =====
+=================*/
+.cobre {
+  background-image: url(../img/condensadoracopy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6.5rem 0;
+  background-position: center;
+  height: 80rem; }
+  .cobre__img {
+    max-width: 19rem;
+    width: 100%;
+    margin-bottom: 3rem; }
+
+/*================
+====== Compare Section =====
+=================*/
+.compare {
+  background-color: #fff;
+  position: relative;
+  padding: 8rem 0; }
+  .compare__after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .compare__title {
+    font-size: 4.8rem;
+    line-height: 4.4rem;
+    color: #2B2B2B;
+    font-weight: 800;
+    text-transform: uppercase;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 6.7rem; }
+    .compare__title span {
+      color: #6CC3D0; }
+    .compare__title img {
+      max-height: 12rem;
+      width: 100%;
+      -o-object-fit: contain;
+      object-fit: contain; }
+  .compare__list {
+    list-style: none; }
+  .compare__item {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #2B2B2B;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center; }
+    .compare__item img {
+      width: 6.8rem;
+      height: 6.5rem;
+      margin-right: 3rem;
+      display: inline-block; }
